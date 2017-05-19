@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: #FFD7B5;
+}
+
+
+/*MENU DESPLEGABLE*/
+#menu_des{
+	display: none;
+}
+.contenedor{
+}
+.icon-menu{
+	
+	top: 8px;
+	position: relative;
+	font-size: 35px;
+	color: #3C3C3B;
+}
+
+header label{
+	float: left;
+}
+
+.menu{
+	/*display: none;*/
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 60%;
+	background-color: rgba(255,255,255,0.5);
+
+	border: 13px solid #3C3C3B;
+
+	transition: all 0.1s;
+	transform: translateX(-100%);
+
+}
+
+.menu a:hover{
+	background-color: rgba(60,60,59,0.4);
+	text-decoration: white;
+
+}
+
+.menu a{
+	line-height: 200%;
+	text-align: center;
+	font-size: 220%;
+	display: block;
+	color: #3C3C3B;
+
+	text-decoration: none;
+	height: 10%;
+	/*border-bottom: 10px solid rgba(255,255,255,0.5);*/
+}
+
+#menu_des:checked ~ .menu {
+	transform: translateX(0%);
+}
+/*fin MENU DESPLEGABLE*/
+
+/*BARRA nombre de usuario*/
+header{
+
+	width: 100%;
+	height: 50px;
+	background: #ACC4CD;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1; /* Para que la barra tape siempre a los elementos */
+}
+
+
+#mini_logo{
+	height: 45px;
+	margin-left: 35%;
+	text-align: center;
+
+}
+/*fin BARRA nombre de usuario*/
+
+/*boton crear evento*/
+.crear_esdeveniment{
+	position: fixed;
+margin-top: -62px;
+}
+#text_crear_esdeveniment{
+	font-size: 180%;
+	padding: 5px 5px 5px 5px;
+	background-color: #ACC4CD; 
+	text-decoration: none;
+	color: #3c3c3c;
+	margin-left: -2px;
+
+
+
+    border: 1px solid #c3c3c3;
+	
+	border-radius: 3px;
+
+
+}
+
+
+/*fin boton crear evento*/
+
+/*etiquetas*/
+
+
+.buscar_events{
+
+	margin-top: 120px;
+	width: 100%;
+	height: 100px;
+	overflow-y: scroll;
+
+
+}
+
+#etiquetas{
+	z-index: -1;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	font-size: 100%;
+	padding: 20px 20px 20px 20px;
+	line-height: 150%;
+
+
+}
+
+#etiquetas a{
+	text-decoration: none;
+	color: #3C3C3B;
+
+}
+
+/*fin etiquetas*/
+
+/* MURO*/
+.muro_todo{
+	z-index: -1;
+
+}
+
+#img_amfitrio{
+	margin-top: 2px;
+	width: 380px;
+}
+#text_amfitrio{
+	color: #3a3a3a;
+	margin-top: 0px;
+	font-size: 20px;
+	width: 380px;
+	background-color: #ACC4CD;
+
+}
+#img_amfitrio_peque{
+	width: 380px;
+	margin-top: -30px;
+}
+/* fin MURO*/
+
+
+
+/*PÁGINA "AMFITRIO2.html"*/
+#img_subirportada{
+	width: 380px;
+}
+
+textarea{
+	width: 380px;
+	border-radius: none;
+	margin-top: 1px;
+	font-size: 18px;
+	outline: 0px;
+}
+
+#text_area1{
+	height: 25px;
+}
+#text_area2{
+	height: 100px;
+}
+
+.boton_crear_esdeveniment{
+	margin-top: 10px;
+}
+#text_boton_crear_esdeveniment{
+	background-color: #ACC4CD;
+	text-decoration: none;
+	color: white;
+	font-size: 180%;
+	padding: 4px 4px 4px 4px;
+	border: 1px solid #c3c3c3;
+	border-radius: 3px;
+
+}
+
+
+
+/*fin PÁGINA "AMFITRIO2.html"*/
+
+
+/*fin PÁGINA "AMFITRIO3.html"*/
+.todo_peticiones{
+	margin-top: 70px;
+}
+.peticions1{
+	margin: -3px;
+	margin-top: -30px;
+}
+.peticio1{
+	margin-top: 35px;
+	background-color: white;
+	width: 380px;
+	height: 150px;
+	border-radius: 3px;
+}
+#foto_peti1{
+	width: 100px;
+	height: 100px;
+	border-radius: 60%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 25px;
+	border: solid 1px grey;
+}
+
+#text_nombreusu1{
+	font-size: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	line-height: 30px;	
+}
+
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+.icon-check{
+	float: left;
+	margin-left: 100px;
+	font-size: 25px;
+	color: #3c3c3c;
+	cursor:pointer;
+}
+
+.icon-check:active{
+	color: green;
+	animation-duration: 3s;
+	
+}
+
+.icon-times{
+	float: right;
+	margin-right: 100px;
+	font-size: 25px;
+	color: #3c3c3c;
+	cursor:pointer;
+}
+
+.icon-times:active{
+	color: red;
+	animation-duration: 3s;
+	
+}
+
+.icon-chat{
+	float: right;
+	margin-right: -70px;
+	font-size: 25px;
+	color: #3c3c3c;
+	cursor:pointer;
+}
+
+.icon-chat:active{
+	color: orange;
+	animation-duration: 3s;
+	
+}
+
+/*fin PÁGINA "AMFITRIO3.html"*/
+
+
+/*PÁGINA "AMFITRIO4.html"*/
+/*etiquetas2*/
+.buscar_events2{
+
+	margin-top: 50px;
+	width: 100%;
+	height: 100px;
+	overflow-y: scroll;
+
+
+}
+
+#etiquetas2{
+	z-index: -1;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	font-size: 100%;
+	padding: 20px 20px 20px 20px;
+	line-height: 150%;
+
+
+}
+
+#etiquetas2 a{
+	text-decoration: none;
+	color: #3C3C3B;
+
+}
+/*etiquetas2*/
+
+.puente{
+
+}
+.opciones_puente{
+	width: 380px;
+}
+
+#img_puente{
+	width: 380px;
+}
+#img_usu{
+	width: 380px;
+}
+/*-----------------*/
+
+#text_puente{
+	margin-top: 30px;
+	background-color: white;
+	color: #FF7673;
+}
+
+
+
+#text_amfitrio2{
+	color: #3a3a3a;
+	margin-top: 0px;
+	font-size: 20px;
+	width: 380px;
+	background-color: #FF7673;
+
+}
+
+#text_amfitrio3{
+	color: #3a3a3a;
+
+	margin-bottom: -1px;
+	font-size: 20px;
+	width: 380px;
+	background-color: #F5932B;
+
+}
+/*fin PÁGINA "AMFITRIO4.html"*/
+
+

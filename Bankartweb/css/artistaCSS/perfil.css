@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: #FFD7B5;
+}
+
+
+/*MENU DESPLEGABLE*/
+#menu_des{
+	display: none;
+}
+.icon-menu{
+	z-index: 1000;
+	top: 8px;
+	position: relative;
+	font-size: 35px;
+	color: #3C3C3B;
+}
+
+header label{
+	float: left;
+}
+
+.menu{
+	/*display: none;*/
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 60%;
+	background-color: rgba(255,255,255,0.5);
+
+	border: 13px solid #3C3C3B;
+
+	transition: all 0.3s;
+	transform: translateX(-100%);
+
+}
+
+.menu a:hover{
+	background-color: rgba(60,60,59,0.4);
+	text-decoration: white;
+
+}
+
+.menu a{
+	line-height: 200%;
+	text-align: center;
+	font-size: 220%;
+	display: block;
+	color: #3C3C3B;
+
+	text-decoration: none;
+	height: 10%;
+	/*border-bottom: 10px solid rgba(255,255,255,0.5);*/
+}
+
+#menu_des:checked ~ .menu {
+	transform: translateX(0%);
+}
+/*MENU DESPLEGABLE*/
+
+/*BARRA nombre de usuario*/
+header{
+	width: 100%;
+	height: 50px;
+	background: #FF7673;
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0; /* Para que la barra tape siempre a los elementos */
+}
+
+
+#nombre_usuario{
+
+	color: white;
+	margin-top: 5px;
+	font-size: 200%;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#pencil_1{
+	
+	color: white;
+	width: 20%;
+	margin-top: 20px;
+	float: right;
+	
+	
+
+}
+/*BARRA nombre de usuario*/
+
+
+/*USUARIO*/
+.cos{
+	background-color: #FF7673;
+	width: 400px;
+
+}
+#img_usuario{
+	width: 400px;
+}
+#text_usuario{
+	background-color: #FF7673;
+	width: 400px;
+	height: 100px;
+}
+
+#pencil{
+	color: white;
+	margin-top: -25px;
+}
+
+#botones{
+	margin-top: 3px;
+	background-color: #FF7673;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#xat_perfil{
+	margin-top: 5px;
+	background-color: ;
+	width: 40%;
+	font-size: 190%;
+}
+#favo_perfil{
+
+	margin-left: 25%;
+
+	width: 40%;
+
+	font-size: 190%;
+}
+
+#img_usu_fotos1, #img_usu_fotos2 {
+	margin-top: 5px;
+	width: 400px;
+
+}
+/*USUARIO*/
+
+/*FAVORITS*/
+.contenedor_favorits{
+
+}
+
+.favorits{
+	background-color: #FF7673;
+	margin-top: 60px;
+	width: 400px;
+	height: auto;
+
+}
+#text_titulo{
+	color: #3c3c3c;
+	font-size: 200%;
+}
+#img_favo1{
+	margin-top: 5px;
+	width: 200px;
+}
+
+
+/*FAVORITS*/

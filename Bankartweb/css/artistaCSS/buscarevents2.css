@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: #FFD7B5;
+
+	
+
+}
+
+
+
+
+
+
+/*"VER EVENTO*/
+
+h2{	
+	
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	width: 100%;
+	
+}
+#h2text{
+	text-decoration: none;
+	color: #3C3C3B;
+	
+}
+p{
+	background-color: white;
+	margin: 2px;
+}
+
+.contenedor2{
+	width: 400px;
+
+	margin: auto;
+	height: auto;
+	display: block;/* Para centrar todo loq ue esta dentro de esta clase, en este caso nuetras fotos*/
+
+
+
+}
+
+
+#f_ver_evento{
+	margin: auto;
+	
+}
+
+#f_ver_evento, h2{
+	box-shadow: 1px 1px 0px grey;
+	border-radius: 2px;
+	width: 100%;
+	margin: auto;
+	 
+}
+#h3text{
+	text-decoration: none;
+	color: #afafaf;
+}
+
+h3{
+	text-align: center;
+	font-size: 150%;
+	background-color: #B4FFB4;
+	
+	padding: 5px 5px 5px 5px;
+	width: 35%;
+	margin-left: 10%;
+	background-color: green;
+}
+
+#h4text{
+	text-decoration: none;
+	color: #afafaf;
+}
+
+h4{
+	text-align: center;
+	font-size: 150%;
+	background-color: #B4FFB4;
+	
+	padding: 5px 5px 5px 5px;
+	width: 35%;
+	float: right 40px;
+
+
+
+}
+
+
+.pino{
+	width: 400px;
+	background-color: green;
+}
+
+/*--------------------------"FIN VER EVENTO"----------------------------*/

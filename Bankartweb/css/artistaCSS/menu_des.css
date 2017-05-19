@@ -1,0 +1,52 @@
+#menu_des{
+	display: none;
+}
+.icon-menu{
+	z-index: 1000px;
+	top: 8px;
+	position: relative;
+	font-size: 35px;
+	color: #3C3C3B;
+}
+
+header label{
+	float: left;
+}
+
+.menu{
+	/*display: none;*/
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 60%;
+	background-color: rgba(255,255,255,0.5);
+
+	border: 13px solid #3C3C3B;
+
+	transition: all 0.1s;
+	transform: translateX(-100%);
+
+}
+
+.menu a:hover{
+	background-color: rgba(60,60,59,0.4);
+	text-decoration: white;
+
+}
+
+.menu a{
+	line-height: 200%;
+	text-align: center;
+	font-size: 220%;
+	display: block;
+	color: #3C3C3B;
+
+	text-decoration: none;
+	height: 10%;
+	/*border-bottom: 10px solid rgba(255,255,255,0.5);*/
+}
+#menu_des:checked ~ .menu {
+	transform: translateX(0%);
+}
+
+

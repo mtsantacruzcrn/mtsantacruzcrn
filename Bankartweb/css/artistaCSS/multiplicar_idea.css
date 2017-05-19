@@ -1,0 +1,102 @@
+import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+/*  ARTISTA6.HTML  */
+p{
+	padding: 2px 2px 2px 2px;
+}
+h3{
+
+	border-radius: 5px;
+}
+h4{
+	margin-top: 9px;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+/*  ARTISTA6.HTML  */
+
+/*  ARTISTA7.HTML  */
+
+
+textarea{
+		border-radius: none;
+	
+	width: 98%;
+	margin-top: 1px;
+	display: auto;
+	font-size: 18px;
+	outline: 0px;
+
+}
+.boton_multiplica_idea{
+	
+
+}
+#multiplicar_idea{
+	background-color: orange;
+	margin-top: 5%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 150%;
+	padding: 5px 5px 5px 5px;
+	
+	float: left;
+	margin-left: 36%;
+}
+a{
+
+	color: white;
+}
+/*  ARTISTA7.HTML  */
+
+/*  ARTISTA8.HTML  */
+
+
+
+
+.opcion_crearexpress{
+	position: fixed;
+	margin-top: -33px;
+	width: 60%;
+	
+	margin-left: -10px;
+
+}
+
+#crearexpress{
+	text-decoration: none;
+	color: white;
+	border: 1px solid #c3c3c3;
+	
+	border-radius: 3px;
+	
+	
+	background-color: #FF7673;
+	margin: left;
+	font-size: 25px;
+	padding: 5px 5px 5px 5px;
+}
+
+#boton_xat, #boton_favo{
+	font-size: 150%;
+text-decoration: none;	
+padding: 5px 5px 5px 5px;
+color: #FF7673;
+
+
+}
+#boton_xat{
+	margin-left: 10%;
+}
+#boton_favo{
+	margin-left: 35%;
+	
+}
+
+/*  ARTISTA8.HTML  */
