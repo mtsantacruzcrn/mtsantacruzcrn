@@ -1,0 +1,95 @@
+body{
+    background: #FFD7B5;
+    /*background:#181907;*/
+    font-family:'Helvetica Neue';
+
+    margin: 0;
+
+
+}
+
+
+
+.container_login{
+    background-color: #FFD7B5;
+    width: auto;
+    height: auto;
+    margin: auto;
+
+
+}
+
+#logo{
+	width: 30%;
+
+	margin-left: 35%;
+	margin-top: 10%;
+}
+#parr{
+	text-align: center;
+	margin-bottom: 1%;
+}
+p{
+    color: #3C3C3B;
+}
+
+
+input{
+    color: green;
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius: 4px; /*probar con 10px se hacen ovalados los inputs*/
+    /*box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);*/
+    font:100% 'Helvetica Neue';
+	height: 70%;
+    line-height: 100%;
+    margin-left: 20%;
+}
+
+input#usu{
+    background: white no-repeat 0 2px; /*probar con #ddf.
+                                                                Para mover arriba-abajo la imagen 'jugar' con 2px, 5px */
+    /*Para que el texto dentro del input se mueva*/
+    padding-left: 3%; /*espacio del borde a la letra*/
+	border: none;
+    box-decoration-break: none;
+    outline: 0px; /* Le quita el borde azul al hacer click*/
+    width: 60%;/*tamaño de caja donde se escribe*/
+
+
+}
+ 
+input#contra{
+    background: white no-repeat 0 5px;
+    padding-left: 3%;/*espacio del borde a la letra*/
+	width: 60%;/*tamaño de caja donde se escribe*/
+    border: none;
+    outline: 0px; /* Le quita el borde azul al hacer click*/
+
+
+ 
+}
+ 
+
+
+
+.boton1{
+    background: white;
+    color: #3C3C3B;
+    width: 40%;
+    border: none;
+    margin-left: 32%;
+}
+ 
+/*Tip estas instrucciones animan al boton enviar
+ * para que se vea como si se pulsara*/
+.boton:active{
+	background-color: #B4FFB4; /*verde_corporativo*/
+    border-color: none;
+}
+.boton1:active{
+	background-color: #B4FFB4;
+	top: 2px;
+}
+
+
+

@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: #ffd7b5;
+
+}
+/*MENU DESPLEGABLE*//*todas las páginas*/
+#header_menu{
+	z-index: 1000;
+}
+
+
+
+#menu_des{
+	display: none;
+}
+.icon-menu{
+	z-index: 1000px;
+	top: 8px;
+	position: relative;
+	font-size: 35px;
+	color: #3C3C3B;
+}
+
+header label{
+	float: left;
+}
+
+.menu{
+	/*display: none;*/
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 60%;
+	background-color: rgba(255,255,255,0.5);
+
+	border: 13px solid #3C3C3B;
+
+	transition: all 0.1s;
+	transform: translateX(-100%);
+
+}
+@media (min-width: 1024px){
+	.menu {
+		width: 200px;
+	}
+}
+.menu a:hover{
+	background-color: rgba(60,60,59,0.4);
+	text-decoration: white;
+
+}
+
+.menu a{
+	line-height: 200%;
+	text-align: center;
+	font-size: 220%;
+	display: block;
+	color: #3C3C3B;
+
+	text-decoration: none;
+	height: 10%;
+	/*border-bottom: 10px solid rgba(255,255,255,0.5);*/
+}
+
+
+
+#menu_des:checked ~ .menu {
+	transform: translateX(0%);
+}
+/*FIN MENU DESPLEGABLE*//*todas las páginas*/
+
+
+/*ESDEVENIMENTS*//*esdeveniments.html*/
+
+
+
+#captura{
+	background: no-repeat;
+	height: 700px;
+	
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #FF7673;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0; /* Para que la barra tape siempre a los elementos */
+}
+
+
+#mini_logo{
+	height: 45px;
+	margin-left: 35%;
+	text-align: center;
+
+}
+
+.contenedor{
+
+
+}
+/*etiquetas------------------------------------------------------------------------------*/
+
+#buscar_events{
+
+	margin-top: 50px;
+
+	width: 100%;
+	height: 100px;
+	overflow-y: scroll;
+
+
+}
+
+#etiquetas{
+	z-index: -1000;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	font-size: 100%;
+	padding: 20px 20px 20px 20px;
+	line-height: 150%;
+
+
+}
+
+#etiquetas a{
+	text-decoration: none;
+	color: #3C3C3B;
+
+}
+
+/*etiquetas------------------------------------------------------------------------------*/
+h1{	
+	
+	background-color: white;
+	text-align: center;
+	margin: 0px;
+	font-size: 18px;
+	width: 110%;
+
+	
+}
+#h1text{
+	text-decoration: none;
+	color: #3C3C3B;
+
+
+}
+
+.mur{
+	width: 350px;
+
+	margin: auto;
+	height: auto;
+	display: block;/* Para centrar todo loq ue esta dentro de esta clase, en este caso nuetras fotos*/
+
+
+}
+
+
+@media (min-width: 1024px){
+	.mur{
+		width: 600px;
+	}
+}
+
+#event1 {
+	
+	margin: 30px;
+}
+#f1, #f2, h1{
+	box-shadow: 1px 1px 0px grey;
+	border-radius: 2px;
+	width: 110%;
+	margin-left: -30px; 
+}
+
+
+
+/*FIN ESDEVENIMENTS*//*esdeveniments.html*/
+
+
+/*VEURE ESDEVENIMENT*//*veureesdeveniment.html*/
+
+h2{	
+	
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	width: 100%;
+	
+}
+#h2text{
+	text-decoration: none;
+	color: #3C3C3B;
+	
+}
+p{
+	background-color: white;
+	margin: 2px;
+}
+
+.contenedor2{
+	width: 400px;
+
+	margin: auto;
+	height: auto;
+	display: block;/* Para centrar todo loq ue esta dentro de esta clase, en este caso nuetras fotos*/
+
+
+
+}
+
+
+
+#f_ver_evento{
+	margin: auto;
+	
+}
+
+#f_ver_evento, h2{
+	box-shadow: 1px 1px 0px grey;
+	border-radius: 2px;
+	width: 100%;
+	margin: auto;
+	 
+}
+#h3text{
+	text-decoration: none;
+	color: #afafaf;
+}
+
+
+
+
+.botones{
+
+	width: 400px;
+	margin: auto;
+
+
+}
+h3{
+	text-align: center;
+	font-size: 150%;
+	background-color: #B4FFB4;
+	
+	padding: 5px 5px 5px 5px;
+	width: 35%;
+	float: left;
+	margin-left: 5%;
+	
+}
+
+#h4text{
+	text-decoration: none;
+	color: white;
+	margin-top: 15px;
+}
+
+h4{
+	text-align: center;
+	font-size: 150%;
+	background-color: #FF7673;
+	
+	padding: 5px 5px 5px 5px;
+	width: 35%;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 5px;
+}
+
+#ojo{
+	width: 60px;
+	margin-top: 20%;
+}
+
+/*FIN VEURE ESDEVENIMENT *//*veureesdeveniment.html*/
+
+
+/*PONT*/
+
+.buscar_events{
+	z-index: -1;
+
+	margin-top: 90px;
+	width: 100%;
+	height: 100px;
+	overflow-y: scroll;
+} 
+
+.opcion_subiridea{
+
+	position: fixed;
+	margin-top: -33px;
+	width: 30%;
+	
+	margin-left: -10px;
+
+}
+
+#subiridea{
+	text-decoration: none;
+	color: white;
+	border: 1px solid #c3c3c3;
+	
+	border-radius: 3px;
+	
+	
+	background-color: #FF7673;
+	margin: left;
+	font-size: 25px;
+	padding: 5px 5px 5px 5px;
+}
+
+
+h1{
+	margin-top: 1px;
+}
+
+
+
+#h1text_{
+	text-decoration: none;
+	color: #ee7574;
+	margin-left: 70%;
+	
+}
+
+.mur{
+
+	z-index: -100;
+
+	margin-top: -px;
+}
+#event1{
+	z-index: -1;
+}
+
+/*FIN PONT*/
+
+/*PONT PUJAR*/
+textarea{
+	border-radius: none;
+	
+	width: 98%;
+	margin-top: 1px;
+	display: auto;
+	font-size: 18px;
+	outline: 0px;
+
+
+}
+.titol_{
+	z-index: -1;
+	width: 100%;
+	margin-top: 1px;
+	display: auto;
+	
+}
+
+.titol_2{
+	z-index: -1;
+
+	width: 100%;
+	margin-top: 1px;
+
+
+}
+
+.titol_3{
+	z-index: -1;
+
+	width: 100%;
+	margin-top: 1px;
+	display: auto;
+
+}
+#textarea1{
+	z-index: -1;
+	/*color: #c3c3c3;}*/
+}
+#textarea2{
+	z-index: -1;
+	/*color: #c3c3c3;}*/
+
+	height: 150px;
+}
+#textarea3{
+	z-index: -1;
+	/*color: #c3c3c3;}*/
+
+	height: 80px;
+}
+
+#ver_evento1{
+	
+	width: 100%;
+}
+
+#f_ver_evento img{
+	width: 100%;
+	}
+
+.contenedor2{
+	width: 350px;
+}
+
+@media (min-width: 1024px) {
+	.contenedor2{
+		width: 600px;
+	}
+	
+}
+
+#h1pujaridea{
+	width: 40%;
+}
+
+#pujaridea{
+
+	margin-top: 5%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 150%;
+	background-color: #FF7673;
+	padding: 5px 5px 5px 5px;
+	
+	float: left;
+	margin-left: 36%;
+
+}
+/*PONT PUJAR*/
+
+
+
+/*  ARTISTA6.HTML  */
+p{
+	padding: 2px 2px 2px 2px;
+}
+h3{
+
+	border-radius: 5px;
+}
+h4{
+	margin-top: 9px;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+/*  ARTISTA6.HTML  */
+
+/*  ARTISTA7.HTML  */
+
+
+textarea{
+		border-radius: none;
+	
+	width: 98%;
+	margin-top: 1px;
+	display: auto;
+	font-size: 18px;
+	outline: 0px;
+
+}
+.boton_multiplica_idea{
+	
+
+}
+#multiplicar_idea{
+	background-color: orange;
+	margin-top: 5%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 150%;
+	padding: 5px 5px 5px 5px;
+	
+	float: left;
+	margin-left: 36%;
+}
+a{
+
+	color: white;
+}
+/*  ARTISTA7.HTML  */
+
+/*  EXPRESS.HTML  */
+
+
+
+
+.opcion_crearexpress{
+	z-index: -1;
+	position: fixed;
+	margin-top: -33px;
+	width: 60%;
+	
+	margin-left: -10px;
+
+}
+
+#crearexpress{
+	text-decoration: none;
+	color: white;
+	border: 1px solid #c3c3c3;
+	
+	border-radius: 3px;
+	
+	
+	background-color: #FF7673;
+	margin: left;
+	font-size: 25px;
+	padding: 5px 5px 5px 5px;
+}
+
+#boton_xat, #boton_favo{
+	font-size: 150%;
+text-decoration: none;	
+padding: 5px 5px 5px 5px;
+color: #FF7673;
+
+
+}
+#boton_xat{
+	margin-left: 10%;
+}
+#boton_favo{
+	margin-left: 35%;
+	
+}
+
+/*  PERFIL.HTML  */
+
+
+
+/*BARRA nombre de usuario*/
+header{
+	width: 100%;
+	height: 50px;
+	background: #FF7673;
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0; /* Para que la barra tape siempre a los elementos */
+}
+
+
+#nombre_usuario{
+
+	background-color: #FF7673;
+	margin-top: 5px;
+	font-size: 200%;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#pencil_1{
+	
+	color: white;
+	width: 20%;
+	margin-top: 20px;
+	float: right;
+	
+	
+
+}
+/*BARRA nombre de usuario*/
+
+
+/*USUARIO*/
+.cos{
+	background-color: #FF7673;
+	width: 300px;
+
+}
+
+@media (min-width: 1024px){
+	.cos{
+		width: 600px;
+	}
+}
+#img_usuario{
+	width: 300px;
+}
+@media (min-width: 1024px){
+	#img_usuario{
+		width: 600px;
+	}
+}
+
+#text_usuario{
+	background-color: #FF7673;
+	width: 300px;
+	height: 100px;
+}
+
+
+
+#pencil{
+	color: white;
+	margin-top: -25px;
+}
+
+#botones{
+	margin-top: 3px;
+	background-color: #FF7673;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#xat_perfil{
+	margin-top: 5px;
+	background-color: ;
+	width: 40%;
+	font-size: 190%;
+}
+#favo_perfil{
+
+	margin-left: 25%;
+
+	width: 40%;
+
+	font-size: 190%;
+}
+
+#img_usu_fotos1, #img_usu_fotos2 {
+	margin-top: 5px;
+	width: 300px;
+
+}
+
+@media (min-width: 1024px){
+	#img_usu_fotos1, #img_usu_fotos2{
+		width: 400px;
+	}
+}
+
+
+
+/*USUARIO*/
+
+/*FAVORITS*/
+.contenedor_favorits{
+
+}
+
+.favorits{
+	background-color: #FF7673;
+	margin-top: 60px;
+	width: 400px;
+	height: auto;
+
+}
+#text_titulo{
+	color: #3c3c3c;
+	font-size: 200%;
+}
+#img_favo1{
+	margin-top: 5px;
+	width: 200px;
+}
+
+
+/*FAVORITS*/
+

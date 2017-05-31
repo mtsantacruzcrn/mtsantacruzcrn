@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+ background-color: #FFD7B5;
+}
+h1{
+
+	text-align: center;
+	color: white;
+	font-size: 250%;
+}
+
+
+p{
+	color: white;
+	font-size: 100%;
+
+}
+
+span{
+	letter-spacing: 7px;
+	font-size: 200%;
+	color: white;
+}
+
+#art{
+
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: #FF7673;
+	width: 50%;
+	height: 40%;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+
+	padding: 20px 40px 20px 40px;
+	overflow: hidden;
+	float: left;
+
+	margin-bottom: 20%;
+
+	
+}
+
+#anf{
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: #ACC4CD;
+	width: 50%;
+	height: 40%;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+	
+	padding: 20px 40px 20px 40px;
+	overflow: hidden;
+	float: right;
+	margin-bottom: 20%;
+}
+
+
+#obs{
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: #F5BDBC;
+	width: 50%;
+	height: 40%;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.26);
+
+padding: 20px 40px 20px 40px;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 20%;
+}
