@@ -1,0 +1,46 @@
+body{
+	background-image:url(../img/fons.jpg);
+	background-repeat: repeat;
+	font-family:'Helvetica', Arial, Sans-serif;
+
+}
+
+#cap{
+	height: 589px;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+#titol{
+	margin-top: 20px;
+}
+
+.color{
+	color: grey;
+}
+
+#cos div{
+	height: 240px;
+	margin-bottom: 20px;
+	background-color: white;
+	opacity: 0.5;
+}
+#cos p{
+	margin-top: 10px;
+	color: grey;
+}
+
+#cos img{
+	
+	width: 300px;
+}
+
+#cos div:hover{
+	opacity: 1;
+}
+
+}
+#peu{
+	height: 220px;
+	padding-bottom: 20px;
+}
